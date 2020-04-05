@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cattel-test/static/css/main.1fb61683.chunk.css",
+    "main.js": "/cattel-test/static/js/main.17eb64a2.chunk.js",
+    "main.js.map": "/cattel-test/static/js/main.17eb64a2.chunk.js.map",
+    "runtime-main.js": "/cattel-test/static/js/runtime-main.ab1d800b.js",
+    "runtime-main.js.map": "/cattel-test/static/js/runtime-main.ab1d800b.js.map",
+    "static/js/2.55cace69.chunk.js": "/cattel-test/static/js/2.55cace69.chunk.js",
+    "static/js/2.55cace69.chunk.js.map": "/cattel-test/static/js/2.55cace69.chunk.js.map",
+    "index.html": "/cattel-test/index.html",
+    "precache-manifest.0ab20c32d3151a0310507720e6d232cd.js": "/cattel-test/precache-manifest.0ab20c32d3151a0310507720e6d232cd.js",
+    "service-worker.js": "/cattel-test/service-worker.js",
+    "static/css/main.1fb61683.chunk.css.map": "/cattel-test/static/css/main.1fb61683.chunk.css.map",
+    "static/js/2.55cace69.chunk.js.LICENSE.txt": "/cattel-test/static/js/2.55cace69.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab1d800b.js",
+    "static/js/2.55cace69.chunk.js",
+    "static/css/main.1fb61683.chunk.css",
+    "static/js/main.17eb64a2.chunk.js"
+  ]
+}
