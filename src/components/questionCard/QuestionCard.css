@@ -1,0 +1,35 @@
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-color: #0000001a;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #0000001a;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.title-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+        width: 90%;
+    }
+}

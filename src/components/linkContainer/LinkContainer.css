@@ -1,0 +1,14 @@
+.link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-color: #0000001a;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #0000001a;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}

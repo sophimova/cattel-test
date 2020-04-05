@@ -1,0 +1,91 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#serv-err {
+    position: relative;
+    height: 75vh;
+}
+
+#serv-err .serv-err {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.serv-err {
+    max-width: 767px;
+    width: 100%;
+    line-height: 1.4;
+    text-align: center;
+    padding: 15px;
+}
+
+.serv-err .serv-err-404 {
+    position: relative;
+    height: 220px;
+}
+
+.serv-err .serv-err-404 h1 {
+    font-family: 'Kanit', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 182px;
+    font-weight: 200;
+    margin: 0px;
+    background: linear-gradient(130deg, #7784d1, #3f51b5);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.serv-err h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 33px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+}
+
+.serv-err p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.serv-err a {
+    font-family: 'Kanit', sans-serif;
+    color: #3f51b5;
+    font-weight: 200;
+    text-decoration: none;
+    border-bottom: 1px dashed #3f51b5;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+    .serv-err .serv-err-404 {
+        position: relative;
+        height: 168px;
+    }
+
+    .serv-err .serv-err-404 h1 {
+        font-size: 142px;
+    }
+
+    .serv-err h2 {
+        font-size: 22px;
+    }
+}

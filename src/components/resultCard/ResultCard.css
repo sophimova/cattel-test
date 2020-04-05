@@ -1,0 +1,9 @@
+.result-container {
+    width: 700px;
+}
+
+@media only screen and (max-width: 700px) {
+    .result-container {
+        width: 100%;
+    }
+}
