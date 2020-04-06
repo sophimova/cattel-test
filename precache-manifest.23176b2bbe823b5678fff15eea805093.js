@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "814c32c060a27f68ce887fdbb0da1943",
+    "revision": "d704ae8e13f609dab7a3a298b0d11c7d",
     "url": "/cattel-test/index.html"
   },
   {
-    "revision": "9186b6b3e0f99d9e6ee4",
-    "url": "/cattel-test/static/css/main.d594fcf2.chunk.css"
+    "revision": "b515f144ca7cb8823080",
+    "url": "/cattel-test/static/css/main.4eba562a.chunk.css"
   },
   {
     "revision": "d2f5dc6d1f8619b5ed67",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cattel-test/static/js/2.9fc6bd44.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9186b6b3e0f99d9e6ee4",
+    "revision": "b515f144ca7cb8823080",
     "url": "/cattel-test/static/js/main.e8c0ba84.chunk.js"
   },
   {

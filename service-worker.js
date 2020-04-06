@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cattel-test/precache-manifest.374b5af85e8b209fc167199989b7aac6.js"
+  "/cattel-test/precache-manifest.23176b2bbe823b5678fff15eea805093.js"
 );
 
 self.addEventListener('message', (event) => {

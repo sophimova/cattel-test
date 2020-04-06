@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cattel-test/static/css/main.d594fcf2.chunk.css",
+    "main.css": "/cattel-test/static/css/main.4eba562a.chunk.css",
     "main.js": "/cattel-test/static/js/main.e8c0ba84.chunk.js",
     "main.js.map": "/cattel-test/static/js/main.e8c0ba84.chunk.js.map",
     "runtime-main.js": "/cattel-test/static/js/runtime-main.ab1d800b.js",
@@ -8,15 +8,15 @@
     "static/js/2.9fc6bd44.chunk.js": "/cattel-test/static/js/2.9fc6bd44.chunk.js",
     "static/js/2.9fc6bd44.chunk.js.map": "/cattel-test/static/js/2.9fc6bd44.chunk.js.map",
     "index.html": "/cattel-test/index.html",
-    "precache-manifest.374b5af85e8b209fc167199989b7aac6.js": "/cattel-test/precache-manifest.374b5af85e8b209fc167199989b7aac6.js",
+    "precache-manifest.23176b2bbe823b5678fff15eea805093.js": "/cattel-test/precache-manifest.23176b2bbe823b5678fff15eea805093.js",
     "service-worker.js": "/cattel-test/service-worker.js",
-    "static/css/main.d594fcf2.chunk.css.map": "/cattel-test/static/css/main.d594fcf2.chunk.css.map",
+    "static/css/main.4eba562a.chunk.css.map": "/cattel-test/static/css/main.4eba562a.chunk.css.map",
     "static/js/2.9fc6bd44.chunk.js.LICENSE.txt": "/cattel-test/static/js/2.9fc6bd44.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ab1d800b.js",
     "static/js/2.9fc6bd44.chunk.js",
-    "static/css/main.d594fcf2.chunk.css",
+    "static/css/main.4eba562a.chunk.css",
     "static/js/main.e8c0ba84.chunk.js"
   ]
 }
