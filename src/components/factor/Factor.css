@@ -1,0 +1,18 @@
+.factor-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rfactor-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.lfactor-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}

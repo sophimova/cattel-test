@@ -55,6 +55,9 @@ const ResultCard = ({ result }) => {
                     </Typography>
                 </div>
                 <LinkContainer className="mt-5" />
+                <Typography variant="caption" component="p" color="textSecondary" align="center">
+                    Created by Sophia Yakimova
+                </Typography>
             </Paper>
         </div>
     );

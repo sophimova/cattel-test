@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Api, GET_TEST, POST_ANSWER, BASE_PATH } from '../../utilities';
+import { Api, GET_TEST, POST_ANSWER } from '../../utilities';
 import QuestionCard from '../questionCard/QuestionCard';
 import { Loader } from '..';
 
@@ -28,7 +28,7 @@ class TestContainer extends React.Component {
             }
         } catch {
             const { history } = this.props;
-            history.push(BASE_PATH +'error');
+            history.push('/error');
         }
     }
 
@@ -43,10 +43,10 @@ class TestContainer extends React.Component {
             this.setState({ hasMore: false });
             Api.post(POST_ANSWER, this.createResult()).then((resp) => {
                 if(resp.status === 200){
-                history.push(BASE_PATH + `result/${resp.data}`)
+                history.push( `/result/${resp.data}`)
             }
             else{
-                history.push(BASE_PATH + `not_found`)
+                history.push( `/not_found`)
             }
         });
         } else {
