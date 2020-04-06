@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Api, GET_TEST, POST_ANSWER } from '../../utilities';
+import { Api, GET_TEST, POST_ANSWER, BASE_PATH } from '../../utilities';
 import QuestionCard from '../questionCard/QuestionCard';
 import { Loader } from '..';
 
@@ -28,7 +28,7 @@ class TestContainer extends React.Component {
             }
         } catch {
             const { history } = this.props;
-            history.push('/error');
+            history.push(BASE_PATH +'error');
         }
     }
 
@@ -41,7 +41,14 @@ class TestContainer extends React.Component {
 
         if (counter === test.questions.length - 1) {
             this.setState({ hasMore: false });
-            Api.post(POST_ANSWER, this.createResult()).then((resp) => history.push(`/result/${resp.data}`));
+            Api.post(POST_ANSWER, this.createResult()).then((resp) => {
+                if(resp.status === 200){
+                history.push(BASE_PATH + `result/${resp.data}`)
+            }
+            else{
+                history.push(BASE_PATH + `not_found`)
+            }
+        });
         } else {
             this.setState({ counter: counter + 1, lastTime: this.getNow() });
         }

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://cattell-test.somee.com/';
+const BASE_URL = 'https://cattell-test.somee.com/';
 
 const api = axios.create({
     baseURL: BASE_URL,
