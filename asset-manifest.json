@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/cattel-test/static/css/main.f31df6fe.chunk.css",
-    "main.js": "/cattel-test/static/js/main.47832211.chunk.js",
-    "main.js.map": "/cattel-test/static/js/main.47832211.chunk.js.map",
+    "main.css": "/cattel-test/static/css/main.41d8644b.chunk.css",
+    "main.js": "/cattel-test/static/js/main.8c9045f3.chunk.js",
+    "main.js.map": "/cattel-test/static/js/main.8c9045f3.chunk.js.map",
     "runtime-main.js": "/cattel-test/static/js/runtime-main.ab1d800b.js",
     "runtime-main.js.map": "/cattel-test/static/js/runtime-main.ab1d800b.js.map",
     "static/js/2.7c54e7fe.chunk.js": "/cattel-test/static/js/2.7c54e7fe.chunk.js",
     "static/js/2.7c54e7fe.chunk.js.map": "/cattel-test/static/js/2.7c54e7fe.chunk.js.map",
     "index.html": "/cattel-test/index.html",
-    "precache-manifest.8222df14434566d221096d5d60f27e9f.js": "/cattel-test/precache-manifest.8222df14434566d221096d5d60f27e9f.js",
+    "precache-manifest.9cacea4e3332fb90ab64049be53bd611.js": "/cattel-test/precache-manifest.9cacea4e3332fb90ab64049be53bd611.js",
     "service-worker.js": "/cattel-test/service-worker.js",
-    "static/css/main.f31df6fe.chunk.css.map": "/cattel-test/static/css/main.f31df6fe.chunk.css.map",
+    "static/css/main.41d8644b.chunk.css.map": "/cattel-test/static/css/main.41d8644b.chunk.css.map",
     "static/js/2.7c54e7fe.chunk.js.LICENSE.txt": "/cattel-test/static/js/2.7c54e7fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.ab1d800b.js",
     "static/js/2.7c54e7fe.chunk.js",
-    "static/css/main.f31df6fe.chunk.css",
-    "static/js/main.47832211.chunk.js"
+    "static/css/main.41d8644b.chunk.css",
+    "static/js/main.8c9045f3.chunk.js"
   ]
 }
