@@ -24,7 +24,7 @@ const ResultCard = ({ result }) => {
     const classes = useStyles();
 
     return (
-        <div className="result-container mt-5 mb -5">
+        <div className="result-container mt-5 mb-5">
             <Paper elevation={4} className={classes.root}>
                 <div className={classes.resultsTitle}>
                     <Typography variant="h5" component="h2">

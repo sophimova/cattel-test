@@ -12,16 +12,7 @@ const useStyles = makeStyles({
 });
 
 function createMarks(config) {
-    var result = [
-        {
-            value: config.minValue,
-            label: config.minValue,
-        },
-        {
-            value: config.maxValue,
-            label: config.maxValue,
-        },
-    ];
+    var result = [];
 
     if (config.expectedValue > 0) {
         result = result.concat([
@@ -71,13 +62,14 @@ const Factor = ({ factor, configuration }) => {
                     </div>
                     <div>
                         <Slider
+                            disabled
                             className={classes.slider}
                             value={factor.value}
                             aria-labelledby="slider"
                             step={1}
                             marks={createMarks(configuration)}
-                            min={0}
-                            max={12}
+                            min={configuration.minValue}
+                            max={configuration.maxValue}
                         />
                     </div>
                 </div>
